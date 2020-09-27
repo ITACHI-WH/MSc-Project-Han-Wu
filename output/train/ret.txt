@@ -1,0 +1,51 @@
+
+
+------------------------------------------------------
+method = randomforest, accurate = 0.7789084181313598, score = 0.7789084181313598
+Label = libx264, class predict =        432,         14,         14,          2, accurate = 0.935064935064935
+Label = hevc, class predict =         21,        129,         53,          8, accurate = 0.6113744075829384
+Label = vp8, class predict =         22,         33,        254,         13, accurate = 0.7888198757763976
+Label = vp9, class predict =          1,         27,         31,         27, accurate = 0.313953488372093              precision    recall  f1-score   support
+
+        hevc       0.64      0.61      0.62       211
+     libx264       0.91      0.94      0.92       462
+         vp8       0.72      0.79      0.75       322
+         vp9       0.54      0.31      0.40        86
+
+    accuracy                           0.78      1081
+   macro avg       0.70      0.66      0.67      1081
+weighted avg       0.77      0.78      0.77      1081
+
+
+------------------------------------------------------
+method = randomforest, accurate = 0.7798334875115633, score = 0.7798334875115633
+Label = libx264, class predict =        437,         13,         11,          1, accurate = 0.9458874458874459
+Label = hevc, class predict =         21,        129,         50,         11, accurate = 0.6113744075829384
+Label = vp8, class predict =         21,         35,        252,         14, accurate = 0.782608695652174
+Label = vp9, class predict =          1,         27,         33,         25, accurate = 0.29069767441860467              precision    recall  f1-score   support
+
+        hevc       0.63      0.61      0.62       211
+     libx264       0.91      0.95      0.93       462
+         vp8       0.73      0.78      0.75       322
+         vp9       0.49      0.29      0.36        86
+
+    accuracy                           0.78      1081
+   macro avg       0.69      0.66      0.67      1081
+weighted avg       0.77      0.78      0.77      1081
+
+
+------------------------------------------------------
+method = knn, accurate = 0.696577243293247, score = 0.696577243293247
+Label = libx264, class predict =        429,         23,         10,          0, accurate = 0.9285714285714286
+Label = hevc, class predict =         27,        111,         63,         10, accurate = 0.5260663507109005
+Label = vp8, class predict =         39,         66,        202,         15, accurate = 0.6273291925465838
+Label = vp9, class predict =          3,         33,         39,         11, accurate = 0.12790697674418605              precision    recall  f1-score   support
+
+        hevc       0.48      0.53      0.50       211
+     libx264       0.86      0.93      0.89       462
+         vp8       0.64      0.63      0.64       322
+         vp9       0.31      0.13      0.18        86
+
+    accuracy                           0.70      1081
+   macro avg       0.57      0.55      0.55      1081
+weighted avg       0.68      0.70      0.68      1081
